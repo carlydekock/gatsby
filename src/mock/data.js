@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Sinky Ship Mobile',
     info: 'React Native mobile application for player versus computer click-based gameplay.',
     info2: '',
-    url: '',
+    url: 'https://github.com/High-Seas-Computer-Company/sinky-ship-v3',
     repo: 'https://github.com/High-Seas-Computer-Company/sinky-ship-v3', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Sinky Ship',
     info: 'Interactive command line interface game against a computer opponent.',
     info2: '',
-    url: '',
+    url: 'https://github.com/High-Seas-Computer-Company/sinky-ships',
     repo: 'https://github.com/High-Seas-Computer-Company/sinky-ships', // if no repo, the button will not show up
   },
   {
