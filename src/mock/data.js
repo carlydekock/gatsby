@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'SinkyShipV3.png',
+    img: 'sinkyshipsmaller.png',
     title: 'Sinky Ship Mobile',
     info: 'React Native mobile application for player versus computer click-based gameplay.',
     info2: '',
