@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Carly | Software Developer', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
@@ -18,14 +18,32 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'carly-profile.jpg',
-  paragraphOne: 'Hi, I’m Carly. I’m a Software Developer with a focus on fullstack JavaScript applications. I have a Bachelors of Science in Mathematics, and come from a recent background in recruiting and business administration. I’ve always been a people first problem solver and continuous learner, which led me to a career pivot into the tech world. I’m excited about the opportunity to apply my analytical and problem solving skills towards building software and other technology tools.',
-  paragraphTwo: 'I’m passionate about increasing accessibility of technology for all. Specifically building inclusive and engaging resources for learning and development for all ages. I thrive on collaboration and have a deep sense of empathy for others. This continuously guides my approach to designing and building efficient and user-centric applications.',
-  paragraphThree: 'I’m looking for a role that will provide me with opportunities to learn and refine my skills, as well as collaborate with others at all levels of the organization.',
+  paragraphOne: 'Hi, I’m Carly! I’m a Software Developer with a focus on fullstack JavaScript applications. I have a Bachelors of Science in Mathematics, and come from a background in recruiting and business administration. I’ve always been a people first problem solver and continuous learner, which is a lot of what led me to a career pivot into the tech world.',
+  paragraphTwo: 'I’m passionate about solving human problems via technical means, and using technology to make the world more equitable, sustainable, and efficient. I thrive on collaboration and have a deep sense of empathy for others, which continuously guides my approach to designing and building efficient and user-centric applications.',
+  paragraphThree: 'I would love to meet you, so feel free to reach out!',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'HikeFinder.png',
+    title: 'Hike Finder',
+    info: 'Auth0 authenticated RESTful API for users to find and contribute to hiking trail data.',
+    info2: '',
+    url: 'https://hike-finder.netlify.app/',
+    repo: 'https://github.com/High-Seas-Computer-Company/sinky-ship-v3', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'SinkyShipV3.png',
+    title: 'Sinky Ship Mobile',
+    info: 'React Native mobile application for player versus computer click-based gameplay.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/High-Seas-Computer-Company/sinky-ship-v3', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'sinkyship.png',
@@ -41,7 +59,7 @@ export const projectsData = [
     title: 'Skills for Devs',
     info: 'Dynamic mobile-first application that allows user to search for free online learning resources.',
     info2: '',
-    url: 'https://www.skillfinder.dev/',
+    url: 'https://skills-for-devs.herokuapp.com/',
     repo: 'https://github.com/skills-for-devs/resource-finder', // if no repo, the button will not show up
   },
   {
@@ -59,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'carly@gmail.com',
+  email: 'carly.m.dekock@gmail.com',
 };
 
 // FOOTER DATA
