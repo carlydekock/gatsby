@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'Auth0 authenticated RESTful API for users to find and contribute to hiking trail data.',
     info2: '',
     url: 'https://hike-finder.netlify.app/',
-    repo: 'https://github.com/High-Seas-Computer-Company/sinky-ship-v3', // if no repo, the button will not show up
+    repo: 'https://github.com/carlydekock/hike-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -86,7 +86,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/carlymdekock',
     },
     {
       id: nanoid(),
