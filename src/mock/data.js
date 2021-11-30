@@ -37,6 +37,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'summit-supply.png',
+    title: 'Summit Supply',
+    info: 'E-commerce site for users to purchase and review products, including site admin functionality.',
+    info2: '',
+    url: 'https://summit-supply.herokuapp.com/',
+    repo: 'https://github.com/carlydekock/mern-ecommerce', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'sinkyshipsmaller.png',
     title: 'Sinky Ship Mobile',
     info: 'React Native mobile application for player versus computer click-based gameplay.',
